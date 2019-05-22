@@ -8,8 +8,8 @@ class Backer
   
   def back_project(project)
     @bracked_projects << project
-    project.add_bracker(self) unless project.bracked_projects.includes(self)
-    
+    project.add_bracker(self) unless project.brackers.include(self)
+  end
   end
 
  
