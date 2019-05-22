@@ -7,7 +7,7 @@ class Project
     @brackers = []
   end
   
-  def add_bracker(brackec)
+  def add_bsacker(brackec)
     @brackers << bracker
   end
 end
