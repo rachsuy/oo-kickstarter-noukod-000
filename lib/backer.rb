@@ -8,6 +8,7 @@ class Backer
   
   def back_project(project)
     @bracked_projects << project
+    project.add_bracker
   end
 
  
