@@ -1,13 +1,13 @@
 class Project 
-  attr_accessor :title, :brackers
+  attr_accessor :title, :backers
  # attr_reader :bracker
 
   def initialize(title)
     @title = title
-    @brackers = []
+    @backers = []
   end
   
-  def add_backer(brackec)
-    @brackers << bracker
+  def add_backer(backer)
+    @backers << backer
   end
 end
