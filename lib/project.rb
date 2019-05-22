@@ -5,6 +5,5 @@ class Project
   def initialize(title)
     @title = title
     @bracker = []
-    
   end
 end
