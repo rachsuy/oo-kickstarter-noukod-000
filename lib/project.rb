@@ -6,4 +6,8 @@ class Project
     @title = title
     @bracker = []
   end
+  
+  def add_bracker
+    
+  end
 end
