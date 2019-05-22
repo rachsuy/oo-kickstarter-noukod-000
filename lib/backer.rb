@@ -10,7 +10,7 @@ class Backer
     @bracked_projects << project
     project.add_bracker(self) unless project.brackers.include(self)
   end
-  end
+  
 
  
 end
